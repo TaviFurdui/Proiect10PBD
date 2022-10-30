@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,7 +16,19 @@ namespace Proiect10PBD
         public Form1()
         {
             InitializeComponent();
+            DBConnexion.con.Open();
         }
 
+        private void butonMaterii_Click(object sender, EventArgs e)
+        {
+            MySqlCommand cmd = new MySqlCommand("select * from materii", DBConnexion.con);
+            MySqlDataAdapter sda = new MySqlDataAdapter(cmd);
+            DataTable dt = new DataTable();
+            sda.Fill(dt);
+            cmd.ExecuteNonQuery();
+            BindingSource bSource = new BindingSource();
+            bSource.DataSource = dt;
+            dataGridView1.DataSource = bSource;
+        }
     }
 }
