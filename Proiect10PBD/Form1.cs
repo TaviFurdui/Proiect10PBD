@@ -30,5 +30,29 @@ namespace Proiect10PBD
             bSource.DataSource = dt;
             dataGridView1.DataSource = bSource;
         }
+
+        private void buttonStudenti_Click(object sender, EventArgs e)
+        {
+            MySqlCommand cmd = new MySqlCommand("select * from studenti", DBConnexion.con);
+            MySqlDataAdapter sda = new MySqlDataAdapter(cmd);
+            DataTable dt = new DataTable();
+            sda.Fill(dt);
+            cmd.ExecuteNonQuery();
+            BindingSource bSource = new BindingSource();
+            bSource.DataSource = dt;
+            dataGridView1.DataSource = bSource;
+        }
+
+        private void buttonNote_Click(object sender, EventArgs e)
+        {
+            MySqlCommand cmd = new MySqlCommand("select * from note", DBConnexion.con);
+            MySqlDataAdapter sda = new MySqlDataAdapter(cmd);
+            DataTable dt = new DataTable();
+            sda.Fill(dt);
+            cmd.ExecuteNonQuery();
+            BindingSource bSource = new BindingSource();
+            bSource.DataSource = dt;
+            dataGridView1.DataSource = bSource;
+        }
     }
 }
