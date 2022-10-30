@@ -38,51 +38,64 @@ namespace Proiect10PBD
             // 
             // buttonMaterii
             // 
-            this.buttonMaterii.Location = new System.Drawing.Point(152, 59);
+            this.buttonMaterii.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.buttonMaterii.Font = new System.Drawing.Font("Microsoft YaHei UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonMaterii.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.buttonMaterii.Location = new System.Drawing.Point(67, 139);
+            this.buttonMaterii.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonMaterii.Name = "buttonMaterii";
-            this.buttonMaterii.Size = new System.Drawing.Size(114, 40);
+            this.buttonMaterii.Size = new System.Drawing.Size(290, 104);
             this.buttonMaterii.TabIndex = 0;
             this.buttonMaterii.Text = "Afisare materii";
-            this.buttonMaterii.UseVisualStyleBackColor = true;
+            this.buttonMaterii.UseVisualStyleBackColor = false;
             this.buttonMaterii.Click += new System.EventHandler(this.butonMaterii_Click);
             // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(348, 59);
+            this.dataGridView1.Location = new System.Drawing.Point(481, 136);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(384, 239);
+            this.dataGridView1.RowHeadersWidth = 51;
+            this.dataGridView1.Size = new System.Drawing.Size(719, 421);
             this.dataGridView1.TabIndex = 1;
             // 
             // buttonStudenti
             // 
-            this.buttonStudenti.Location = new System.Drawing.Point(152, 163);
+            this.buttonStudenti.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.buttonStudenti.Font = new System.Drawing.Font("Microsoft YaHei UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonStudenti.Location = new System.Drawing.Point(67, 304);
+            this.buttonStudenti.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonStudenti.Name = "buttonStudenti";
-            this.buttonStudenti.Size = new System.Drawing.Size(114, 40);
+            this.buttonStudenti.Size = new System.Drawing.Size(290, 97);
             this.buttonStudenti.TabIndex = 2;
             this.buttonStudenti.Text = "Afisare studenti";
-            this.buttonStudenti.UseVisualStyleBackColor = true;
+            this.buttonStudenti.UseVisualStyleBackColor = false;
             this.buttonStudenti.Click += new System.EventHandler(this.buttonStudenti_Click);
             // 
             // buttonNote
             // 
-            this.buttonNote.Location = new System.Drawing.Point(152, 258);
+            this.buttonNote.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.buttonNote.Font = new System.Drawing.Font("Microsoft YaHei UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonNote.Location = new System.Drawing.Point(67, 454);
+            this.buttonNote.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonNote.Name = "buttonNote";
-            this.buttonNote.Size = new System.Drawing.Size(114, 40);
+            this.buttonNote.Size = new System.Drawing.Size(290, 103);
             this.buttonNote.TabIndex = 3;
             this.buttonNote.Text = "Afisare note";
-            this.buttonNote.UseVisualStyleBackColor = true;
+            this.buttonNote.UseVisualStyleBackColor = false;
             this.buttonNote.Click += new System.EventHandler(this.buttonNote_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1259, 705);
             this.Controls.Add(this.buttonNote);
             this.Controls.Add(this.buttonStudenti);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.buttonMaterii);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
