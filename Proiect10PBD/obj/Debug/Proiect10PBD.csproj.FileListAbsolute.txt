@@ -1,0 +1,10 @@
+C:\Users\Bogdan\Desktop\prblm\Random\Proiect_PBD\Proiect10PBD\Proiect10PBD\bin\Debug\Proiect10PBD.exe.config
+C:\Users\Bogdan\Desktop\prblm\Random\Proiect_PBD\Proiect10PBD\Proiect10PBD\bin\Debug\Proiect10PBD.exe
+C:\Users\Bogdan\Desktop\prblm\Random\Proiect_PBD\Proiect10PBD\Proiect10PBD\bin\Debug\Proiect10PBD.pdb
+C:\Users\Bogdan\Desktop\prblm\Random\Proiect_PBD\Proiect10PBD\Proiect10PBD\obj\Debug\Proiect10PBD.csproj.AssemblyReference.cache
+C:\Users\Bogdan\Desktop\prblm\Random\Proiect_PBD\Proiect10PBD\Proiect10PBD\obj\Debug\Proiect10PBD.csproj.SuggestedBindingRedirects.cache
+C:\Users\Bogdan\Desktop\prblm\Random\Proiect_PBD\Proiect10PBD\Proiect10PBD\obj\Debug\Proiect10PBD.Properties.Resources.resources
+C:\Users\Bogdan\Desktop\prblm\Random\Proiect_PBD\Proiect10PBD\Proiect10PBD\obj\Debug\Proiect10PBD.csproj.GenerateResource.cache
+C:\Users\Bogdan\Desktop\prblm\Random\Proiect_PBD\Proiect10PBD\Proiect10PBD\obj\Debug\Proiect10PBD.csproj.CoreCompileInputs.cache
+C:\Users\Bogdan\Desktop\prblm\Random\Proiect_PBD\Proiect10PBD\Proiect10PBD\obj\Debug\Proiect10PBD.exe
+C:\Users\Bogdan\Desktop\prblm\Random\Proiect_PBD\Proiect10PBD\Proiect10PBD\obj\Debug\Proiect10PBD.pdb
