@@ -36,6 +36,9 @@ namespace Proiect10PBD
             this.buttonNepromovati = new System.Windows.Forms.Button();
             this.buttonRaport5 = new System.Windows.Forms.Button();
             this.buttonRaport6 = new System.Windows.Forms.Button();
+            this.buttonPromovabilitate = new System.Windows.Forms.Button();
+            this.buttonStudentiMaterii = new System.Windows.Forms.Button();
+            this.buttonTheStudent = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -44,7 +47,7 @@ namespace Proiect10PBD
             this.buttonMaterii.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.buttonMaterii.Font = new System.Drawing.Font("Microsoft YaHei UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonMaterii.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.buttonMaterii.Location = new System.Drawing.Point(50, 113);
+            this.buttonMaterii.Location = new System.Drawing.Point(50, 61);
             this.buttonMaterii.Name = "buttonMaterii";
             this.buttonMaterii.Size = new System.Drawing.Size(218, 84);
             this.buttonMaterii.TabIndex = 0;
@@ -55,17 +58,17 @@ namespace Proiect10PBD
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(361, 110);
+            this.dataGridView1.Location = new System.Drawing.Point(319, 61);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.Size = new System.Drawing.Size(539, 345);
+            this.dataGridView1.Size = new System.Drawing.Size(723, 519);
             this.dataGridView1.TabIndex = 1;
             // 
             // buttonStudenti
             // 
             this.buttonStudenti.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.buttonStudenti.Font = new System.Drawing.Font("Microsoft YaHei UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonStudenti.Location = new System.Drawing.Point(50, 203);
+            this.buttonStudenti.Location = new System.Drawing.Point(50, 151);
             this.buttonStudenti.Name = "buttonStudenti";
             this.buttonStudenti.Size = new System.Drawing.Size(218, 79);
             this.buttonStudenti.TabIndex = 2;
@@ -77,7 +80,7 @@ namespace Proiect10PBD
             // 
             this.buttonNote.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.buttonNote.Font = new System.Drawing.Font("Microsoft YaHei UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonNote.Location = new System.Drawing.Point(50, 288);
+            this.buttonNote.Location = new System.Drawing.Point(50, 236);
             this.buttonNote.Name = "buttonNote";
             this.buttonNote.Size = new System.Drawing.Size(218, 84);
             this.buttonNote.TabIndex = 3;
@@ -89,7 +92,7 @@ namespace Proiect10PBD
             // 
             this.buttonNepromovati.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.buttonNepromovati.Font = new System.Drawing.Font("Microsoft YaHei UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonNepromovati.Location = new System.Drawing.Point(50, 378);
+            this.buttonNepromovati.Location = new System.Drawing.Point(50, 326);
             this.buttonNepromovati.Name = "buttonNepromovati";
             this.buttonNepromovati.Size = new System.Drawing.Size(218, 84);
             this.buttonNepromovati.TabIndex = 4;
@@ -101,7 +104,7 @@ namespace Proiect10PBD
             // 
             this.buttonRaport5.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.buttonRaport5.Font = new System.Drawing.Font("Microsoft YaHei UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonRaport5.Location = new System.Drawing.Point(50, 468);
+            this.buttonRaport5.Location = new System.Drawing.Point(50, 416);
             this.buttonRaport5.Name = "buttonRaport5";
             this.buttonRaport5.Size = new System.Drawing.Size(218, 84);
             this.buttonRaport5.TabIndex = 5;
@@ -113,7 +116,7 @@ namespace Proiect10PBD
             // 
             this.buttonRaport6.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.buttonRaport6.Font = new System.Drawing.Font("Microsoft YaHei UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonRaport6.Location = new System.Drawing.Point(50, 567);
+            this.buttonRaport6.Location = new System.Drawing.Point(50, 506);
             this.buttonRaport6.Name = "buttonRaport6";
             this.buttonRaport6.Size = new System.Drawing.Size(218, 84);
             this.buttonRaport6.TabIndex = 6;
@@ -121,11 +124,50 @@ namespace Proiect10PBD
             this.buttonRaport6.UseVisualStyleBackColor = false;
             this.buttonRaport6.Click += new System.EventHandler(this.buttonRaport6_Click);
             // 
+            // buttonPromovabilitate
+            // 
+            this.buttonPromovabilitate.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.buttonPromovabilitate.Font = new System.Drawing.Font("Microsoft YaHei UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonPromovabilitate.Location = new System.Drawing.Point(50, 596);
+            this.buttonPromovabilitate.Name = "buttonPromovabilitate";
+            this.buttonPromovabilitate.Size = new System.Drawing.Size(218, 110);
+            this.buttonPromovabilitate.TabIndex = 7;
+            this.buttonPromovabilitate.Text = "Afisare promovabilitate disciplina";
+            this.buttonPromovabilitate.UseVisualStyleBackColor = false;
+            this.buttonPromovabilitate.Click += new System.EventHandler(this.buttonPromovabilitate_Click);
+            // 
+            // buttonStudentiMaterii
+            // 
+            this.buttonStudentiMaterii.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.buttonStudentiMaterii.Font = new System.Drawing.Font("Microsoft YaHei UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonStudentiMaterii.Location = new System.Drawing.Point(319, 596);
+            this.buttonStudentiMaterii.Name = "buttonStudentiMaterii";
+            this.buttonStudentiMaterii.Size = new System.Drawing.Size(362, 110);
+            this.buttonStudentiMaterii.TabIndex = 8;
+            this.buttonStudentiMaterii.Text = "Studentii care au obtinut doar note sub 5, la materii din 2 ani consecutivi";
+            this.buttonStudentiMaterii.UseVisualStyleBackColor = false;
+            this.buttonStudentiMaterii.Click += new System.EventHandler(this.buttonStudentiMaterii_Click);
+            // 
+            // buttonTheStudent
+            // 
+            this.buttonTheStudent.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.buttonTheStudent.Font = new System.Drawing.Font("Microsoft YaHei UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonTheStudent.Location = new System.Drawing.Point(687, 596);
+            this.buttonTheStudent.Name = "buttonTheStudent";
+            this.buttonTheStudent.Size = new System.Drawing.Size(355, 110);
+            this.buttonTheStudent.TabIndex = 9;
+            this.buttonTheStudent.Text = "Sa se afiseze studentul care are cele mai multe prezentari la examene";
+            this.buttonTheStudent.UseVisualStyleBackColor = false;
+            this.buttonTheStudent.Click += new System.EventHandler(this.buttonTheStudent_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(944, 749);
+            this.ClientSize = new System.Drawing.Size(1143, 749);
+            this.Controls.Add(this.buttonTheStudent);
+            this.Controls.Add(this.buttonStudentiMaterii);
+            this.Controls.Add(this.buttonPromovabilitate);
             this.Controls.Add(this.buttonRaport6);
             this.Controls.Add(this.buttonRaport5);
             this.Controls.Add(this.buttonNepromovati);
@@ -134,7 +176,7 @@ namespace Proiect10PBD
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.buttonMaterii);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Aplicatie";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
@@ -149,6 +191,9 @@ namespace Proiect10PBD
         private System.Windows.Forms.Button buttonNepromovati;
         private System.Windows.Forms.Button buttonRaport5;
         private System.Windows.Forms.Button buttonRaport6;
+        private System.Windows.Forms.Button buttonPromovabilitate;
+        private System.Windows.Forms.Button buttonStudentiMaterii;
+        private System.Windows.Forms.Button buttonTheStudent;
     }
 }
 

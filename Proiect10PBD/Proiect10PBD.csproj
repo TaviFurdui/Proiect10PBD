@@ -92,9 +92,18 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
+    <Compile Include="Promovabilitate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Promovabilitate.Designer.cs">
+      <DependentUpon>Promovabilitate.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Promovabilitate.resx">
+      <DependentUpon>Promovabilitate.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
