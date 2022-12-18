@@ -156,6 +156,11 @@ namespace Proiect10PBD
             bSource.DataSource = dt;
             dataGridView1.DataSource = bSource;
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
     
 }

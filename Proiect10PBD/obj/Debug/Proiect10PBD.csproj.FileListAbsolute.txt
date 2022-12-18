@@ -66,3 +66,4 @@ C:\Users\Bogdan\Desktop\prblm\Random\Proiect_PBD\Proiect10PBD\Proiect10PBD\bin\D
 C:\Users\Bogdan\Desktop\prblm\Random\Proiect_PBD\Proiect10PBD\Proiect10PBD\obj\Debug\Proiect10PBD.Form1.resources
 C:\Users\Bogdan\Desktop\prblm\Random\Proiect_PBD\Proiect10PBD\Proiect10PBD\obj\Debug\Proiect10PBD.csproj.CopyComplete
 C:\Users\Skullcandy\source\repos\Proiect10PBD\Proiect10PBD\obj\Debug\Proiect10PBD.Promovabilitate.resources
+C:\Users\Bogdan\Desktop\prblm\Random\Proiect_PBD\Proiect10PBD\Proiect10PBD\obj\Debug\Proiect10PBD.Promovabilitate.resources
